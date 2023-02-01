@@ -21,3 +21,5 @@ Now, refresh your Github page, you will be able to see your committed folders/fi
 
 $ git remote -v
 For remote repositories status
+
+Making a change now.
