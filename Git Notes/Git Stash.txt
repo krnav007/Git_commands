@@ -1,0 +1,25 @@
+Git stash
+---------
+
+
+This feature is used for leaving unfinished work, in such a way that Git cannot access it and continue work on some of the files.
+
+Further commands of git should be able t process only hte new files.
+This can be done using git stash.
+
+Commands
+------------------
+1) To stash the stagged files
+$ git stash
+
+2) To stash staged and untracked files
+$ git stash -u
+
+3) To see the list of stashes
+$ git stash list
+
+4) To get back the stashed files
+$ git stash pop
+
+5) To bring the older stash out
+$ git stash pop stash@{stash_number}
